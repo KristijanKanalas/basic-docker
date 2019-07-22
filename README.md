@@ -5,36 +5,23 @@ Contains:
 - NGINX
 - PHP-7.2-fpm
 
-## Installation
-
-To install run 
-```
-git clone git@github.com:KristijanKanalas/basic-docker.git
-```
-or
-```
-git clone https://github.com/KristijanKanalas/basic-docker.git
-```
-
 ## Usage
 
-After cloning the repository, add your project to the folder and run
-the `docker build` command in your terminal of choice
+You can build your image or pull the image from official DockerHub repository
 
 ```
-docker build -t $docker-image-name . 
+docker pull kristijank/basic-docker
 ```
 
-This will build the image and copy the code from the folder into `/var/www`.
-Now all you have to do is to run the `docker run` command
-
+After the image is pulled you can run the `docker run` command
 ```
-docker run -d -p 8000:80 --name $docker-container-name $docker-image-name
+docker run -d -p 8000:80 --name $docker-container-name kristijank/basic-docker -v $path-to-project:/var/www
 ```
 
-If the port `8000` on your host isn't available you can change the command to use the different port.
+- Port `8000` might be in use on your host so feel free to change it
+- `$docker-container-name` is the name of the container you are about to create
+- `$path-to-project` is the absolute path to the project you want to be mounted inside your container so you can start development right away
 
-**Note**: `composer.json` is there only for the build to pass, you can override it. 
-
+**Note**: `composer.json` is empty and exists only for the build to pass, you can override it. 
 ## Author
 - Kristijan Kanalaš (kanalaskristijan@gmail.com)
