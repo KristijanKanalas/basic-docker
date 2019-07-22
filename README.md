@@ -34,5 +34,7 @@ docker run -d -p 8000:80 --name $docker-container-name $docker-image-name
 
 If the port `8000` on your host isn't available you can change the command to use the different port.
 
+**Note**: `composer.json` is there only for the build to pass, you can override it. 
+
 ## Author
 - Kristijan Kanalaš (kanalaskristijan@gmail.com)
