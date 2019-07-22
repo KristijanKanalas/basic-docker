@@ -1,6 +1,5 @@
 .git
 Dockerfile
-services
 .gitignore
 README.md
 LICENSE
