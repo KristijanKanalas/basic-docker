@@ -1,4 +1,4 @@
-# Basic docker
+# Basic docker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Basic PHP + NGINX docker development setup
 
 Contains:
