@@ -9,11 +9,11 @@ Contains:
 
 To install run 
 ```
-git@github.com:KristijanKanalas/basic-docker.git
+git clone git@github.com:KristijanKanalas/basic-docker.git
 ```
 or
 ```
-https://github.com/KristijanKanalas/basic-docker.git
+git clone https://github.com/KristijanKanalas/basic-docker.git
 ```
 
 ## Usage
