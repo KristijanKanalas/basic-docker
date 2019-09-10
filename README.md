@@ -1,9 +1,10 @@
 # Basic docker [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kristijank/basic-docker.svg)](https://hub.docker.com/r/kristijank/basic-docker/builds) ![MicroBadger Size](https://img.shields.io/microbadger/image-size/kristijank/basic-docker.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/kristijank/basic-docker.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Basic PHP + NGINX docker development setup
+Basic PHP + NGINX + SUPERVISOR docker development setup
 
 Contains:
 - NGINX
 - PHP-7.2-fpm
+- Supervisor
 
 ## Usage
 
