@@ -26,3 +26,8 @@ docker run -d -p 8000:80 --name $docker-container-name kristijank/basic-docker -
 **Note**: `composer.json` is empty and exists only for the build to pass, you can override it. 
 ## Author
 - Kristijan Kanalaš (kanalaskristijan@gmail.com)
+
+## Support
+If you would like to support me
+
+[![](https://cdn.buymeacoffee.com/buttons/default-blue.png)](https://www.buymeacoffee.com/wSd4q6U)
